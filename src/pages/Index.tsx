@@ -1,12 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Header } from '@/components/Header';
+import { HeroSection } from '@/components/HeroSection';
+import { HowWeWork } from '@/components/HowWeWork';
+import { CertificationBand } from '@/components/CertificationBand';
+import { ServicesSection } from '@/components/ServicesSection';
+import { IndustriesBand } from '@/components/IndustriesBand';
+import { MaterialsSection } from '@/components/MaterialsSection';
+import { WhyMasTechnic } from '@/components/WhyMasTechnic';
+import { CapabilitiesSection } from '@/components/CapabilitiesSection';
+import { TestimonialsSection } from '@/components/TestimonialsSection';
+import { StatsSection } from '@/components/StatsSection';
+import { FaqBlogSection } from '@/components/FaqBlogSection';
+import { FinalCTA } from '@/components/FinalCTA';
+import { Footer } from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <HeroSection />
+        <HowWeWork />
+        <CertificationBand />
+        <ServicesSection />
+        <IndustriesBand />
+        <MaterialsSection />
+        <WhyMasTechnic />
+        <CapabilitiesSection />
+        <TestimonialsSection />
+        <StatsSection />
+        <FaqBlogSection />
+        <FinalCTA />
+      </main>
+      <Footer />
     </div>
   );
 };
