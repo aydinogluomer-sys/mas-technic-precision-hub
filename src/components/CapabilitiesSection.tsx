@@ -45,7 +45,7 @@ const capabilities = [
 
 export const CapabilitiesSection = () => {
   return (
-    <section className="industrial-section gradient-dark">
+    <section id="capabilities" className="industrial-section gradient-dark">
       <div className="industrial-container">
         {/* Header */}
         <div className="text-center mb-16">
