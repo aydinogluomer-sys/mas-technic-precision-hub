@@ -10,6 +10,7 @@ import { CapabilitiesSection } from '@/components/CapabilitiesSection';
 import { TestimonialsSection } from '@/components/TestimonialsSection';
 import { StatsSection } from '@/components/StatsSection';
 import { FaqBlogSection } from '@/components/FaqBlogSection';
+import { QuoteSection } from '@/components/QuoteSection';
 import { FinalCTA } from '@/components/FinalCTA';
 import { Footer } from '@/components/Footer';
 
@@ -29,6 +30,7 @@ const Index = () => {
         <TestimonialsSection />
         <StatsSection />
         <FaqBlogSection />
+        <QuoteSection />
         <FinalCTA />
       </main>
       <Footer />
