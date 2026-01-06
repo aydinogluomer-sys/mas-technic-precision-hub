@@ -44,10 +44,23 @@ export const HeroSection = () => {
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mb-16">
-            <Button variant="industrial" size="xl">
+            <Button 
+              variant="industrial" 
+              size="xl"
+              onClick={() => {
+                document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Teklif Al
             </Button>
-            <Button variant="industrial-outline" size="xl" className="border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground hover:text-industrial-dark">
+            <Button 
+              variant="industrial-outline" 
+              size="xl" 
+              className="border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground hover:text-industrial-dark"
+              onClick={() => {
+                document.getElementById('capabilities')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Kabiliyetleri Gör
             </Button>
           </div>
